@@ -1,16 +1,149 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack personal portfolio website built using the MERN Stack.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
+- React.js
+- CSS
+- Axios
 
-## React Compiler
+### Backend
+- Node.js
+- Express.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Database
+- MongoDB Atlas
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Features
+
+- Responsive Portfolio Website
+- About Section
+- Skills Section
+- Projects Section
+- MongoDB Database Integration
+- Express Backend API
+- React Frontend
+- Fully Responsive Design
+
+---
+
+# Project Structure
+
+portfolio/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── server.js
+│   ├── .env
+│   └── package.json
+│
+└── README.md
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/KesaramVedaShruthi/portfolio.git
+```
+
+---
+
+# Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+# Backend Setup
+
+```bash
+cd backend
+npm install
+npx nodemon server.js
+```
+
+---
+
+# MongoDB Setup
+
+Create `.env` inside backend folder:
+
+```env
+MONGO_URL=your_mongodb_connection_string
+```
+
+---
+
+# Run Project
+
+## Frontend
+
+```bash
+npm run dev
+```
+
+Runs on:
+
+```txt
+http://localhost:5173
+```
+
+---
+
+## Backend
+
+```bash
+npx nodemon server.js
+```
+
+Runs on:
+
+```txt
+http://localhost:5000
+```
+
+---
+
+# Skills
+
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Git & GitHub
+
+---
+
+# Future Improvements
+
+- Authentication
+- Admin Dashboard
+- Dark Mode
+- Deployment on Vercel and Render
+
+---
+
+# Author
+
+Kesaram Veda Shruthi
+
+GitHub:
+https://github.com/KesaramVedaShruthi
